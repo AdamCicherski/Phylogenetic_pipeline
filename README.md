@@ -19,7 +19,6 @@ Project is created with:
 * BioPython
 	
 ## Quick Start
-To run this project, install it locally using npm:
 
 ```
 $ 
