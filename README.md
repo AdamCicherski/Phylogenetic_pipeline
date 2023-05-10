@@ -20,5 +20,5 @@ Project is created with:
 ## Quick Start
 If all required execs are in PATH you can simply run:
 ```
-$ python phylo_pipeline -t taxon_name --og out_group_organism_name
+$ python phylo_pipeline -t taxon_name -o output_dir --og out_group_organism_name
 ```
