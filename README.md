@@ -10,12 +10,12 @@ This script allows you to automate steps of phylogenetic analysis such as:
 * proteome downloading from UniProtKB
 *  Proteins Clustering 
 *  MSA of each cluster in two variants
-  * Only one protein from each organism
-  * Many protein from the same organism (paralogous proteins)   
+	* Only one protein from each organism
+  	* Many protein from the same organism (paralogous proteins)   
 *   Maximum Likelihood Tree construction for both variants of alignment
 *   Consensus Tree construction in following variants:
-  * From all ML-Trees
-  * Only from trees with high bootstrap confidence level. 
+  	* From all ML-Trees
+  	* Only from trees with high bootstrap confidence level. 
 *   Super Tree construction
 
 	
