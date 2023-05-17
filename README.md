@@ -6,16 +6,26 @@
 * [Quick Start](#quick-start)
 
 ## General info
-This project allows you to automate steps of phylogentic analysis such as proteomes downloading from UniprotKB, Proteins Clustering, MSA, Maximum Likelihood Trees construction, Consensus Tree and Super Tree construction.  
+This script allows you to automate steps of phylogenetic analysis such as:
+* proteome downloading from UniProtKB
+*  Proteins Clustering 
+*  MSA of each cluster in two variants
+  * Only one protein from each organism
+  * Many protein from the same organism (paralogous proteins)   
+*   Maximum Likelihood Tree construction for both variants of alignment
+*   Consensus Tree construction in following variants:
+  * From all ML-Trees
+  * Only from trees with high bootstrap confidence level. 
+*   Super Tree construction
 
 	
 ## Technologies
-Project is created with:
+The script requires:
 * [Clustal Omega](http://www.clustal.org/omega/)
 * [IQTREE](http://www.iqtree.org/)
 * [CD-HIT](https://github.com/weizhongli/cdhit)
 * [Clann](http://chriscreevey.github.io/clann/)
-* BioPython 1.81
+* [BioPython](https://biopython.org/)
 	
 ## Quick Start
 If all required execs are in PATH you can simply run:
